@@ -1,0 +1,24 @@
+{
+    "headings" : {
+        "bold" : true,
+        "italic" : true,
+        "underline" : true,
+        "strikethrough" : false,
+        "fontsize" : 28
+    },
+    "paragraph" : {
+        "bold":false,
+        "italic":false,
+        "underline":false,
+        "strikethrough":false,
+        "fontsize":14
+    },
+    "subtopics" : {
+        "bold":false,
+        "italic":false,
+        "underline":false,
+        "strikethrough":false,
+        "fontsize":10,
+        "heading_fontsize" : 20
+    }
+}
