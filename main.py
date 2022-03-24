@@ -28,6 +28,8 @@ data = {"data":[]}
 def get_format(sections, level=0):
     lis = []
     for s in sections:
+        if len(s.text) < 500 and s.level == 0:
+            continue # Take care of short passages
         print("%s: %s - %s" % ("*" * (level + 1), s.title, s.text[0:40]))
         x = {"title":s.title, "content":s.text, "level":level}
         x["section"] = get_format(s.sections, level + 1)
